@@ -4,8 +4,22 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul,
 ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style-type: none;
 }
 
@@ -17,6 +31,28 @@ a {
 button {
   cursor: pointer;
   color: inherit;
+}
+
+.conteiner {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-conteiner {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -39,6 +75,15 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
+}
+
+.menu-link {
+  padding-bottom: 24px;
+  padding-top: 24px;
+  display: block;
 }
 
 .menu-link-active {
@@ -56,6 +101,12 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-left: auto;
+}
+
+.contact-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contact-list-link:hover,
