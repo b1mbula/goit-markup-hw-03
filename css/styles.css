@@ -37,7 +37,7 @@ button {
   color: inherit;
 }
 
-.conteiner {
+.container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -49,7 +49,7 @@ button {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-conteiner {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -67,6 +67,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .accent-color {
@@ -123,7 +124,7 @@ button {
   color: #fff;
 }
 
-.hero-conteiner {
+.hero-container {
   padding-top: 188px;
   padding-bottom: 292px;
 }
@@ -182,7 +183,7 @@ p {
   opacity: 0;
 }
 
-.benefits-conteiner {
+.benefits-container {
   padding-top: 80px;
   padding-bottom: 120px;
 }
@@ -209,7 +210,7 @@ p {
   letter-spacing: 0.02em;
 }
 
-.team-conteiner {
+.team-container {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -256,7 +257,7 @@ p {
   padding-bottom: 32px;
 }
 
-.portfolio-conteiner {
+.portfolio-container {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -301,7 +302,7 @@ p {
   background-color: #2e2f42;
 }
 
-.footer-conteiner {
+.footer-container {
   padding-top: 100px;
   padding-bottom: 100px;
 }
