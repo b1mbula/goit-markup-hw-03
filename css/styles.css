@@ -122,11 +122,7 @@ button {
 .hero {
   background-color: #2e2f42;
   color: #fff;
-}
-
-.hero-container {
-  padding-top: 188px;
-  padding-bottom: 292px;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -134,7 +130,7 @@ button {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  width: 496px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -179,13 +175,12 @@ p {
   color: #434455;
 }
 
-.our-benefits-title {
-  opacity: 0;
+.benefits {
+  padding: 120px 0;
 }
 
-.benefits-container {
-  padding-top: 80px;
-  padding-bottom: 120px;
+.our-benefits-title {
+  opacity: 0;
 }
 
 .benefits-list {
